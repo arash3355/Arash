@@ -2,12 +2,11 @@
   ===================
 
     1.COMMON
-	2.HEADER
+	  2.HEADER
     3.ABOUT
-    4.SERVICES
-    4.CALL TO ACTION
-    5.WORK
-    6.BLOG
+    4.EDUCATIONS AND SKILL
+    5.CALL TO ACTIONS
+    6.WORK
     7.CONTACT
     8.FOOTER
     9.PAGE BANNER
@@ -855,7 +854,7 @@ p {
       width: 0; }
 
 /*===========================
-        4.SERVICES css 
+        4.EDUCATION AND SKILL css 
 ===========================*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .services-area {
