@@ -92,11 +92,20 @@
     //===== Magnific Popup
     
     $('.image-popup').magnificPopup({
-      type: 'image',
-      gallery:{
-        enabled:true
-      }
-    });
+        type: 'inline',
+        gallery: {
+          enabled: true
+        },
+        callbacks: {
+          elementParse: function(item) {
+            if(item.el.hasClass('lni-plus')) {
+              item.type = 'inline';
+              item.src = $(item.el).closest('.single-work').find('.detail-content');
+            }
+          }
+        }
+      });
+      
     
     
     //===== Back to top
@@ -122,7 +131,7 @@
     
 
     
-    //===== 
+    //==
     
     
     
