@@ -1196,6 +1196,7 @@ p.form-message.success, p.form-message.error {
     border: 1px solid #ddd;
     padding: 0 25px;
     font-size: 16px;
+    background-color: #ffffff14;
     color: pr; }
     .single-form input.placeholder, .single-form textarea.placeholder {
       opacity: 1;
